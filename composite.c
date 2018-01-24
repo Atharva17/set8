@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+int i,n,count=0;
+scanf("%d",&n);
+for(i=1;i<=n;i++)
+if(n%2==0)
+count++;
+if(count>2)
+printf("Composite");
+else
+printf("\nprime ");
+return 0;
+}
